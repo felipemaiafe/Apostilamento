@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --name "Apostilamento" --icon "C:\Users\04491096155\Documents\dev\Apostilamento\1492719128-robot_83633.ico" --add-data "C:\Users\04491096155\Documents\dev\Apostilamento\DIARIOS_E_DITAIS;DIARIOS_E_DITAIS" app.py
