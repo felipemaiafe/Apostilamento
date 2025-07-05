@@ -60,7 +60,7 @@ Para executar o programa, não é necessário instalar Python ou qualquer depend
         |
         |-- Apostilamento.exe       <-- O programa principal
         |
-        +-- DIARIOS_E_DITAIS/       <-- A base de dados de Editais (essencial)
+        |+-- DIARIOS_E_DITAIS/       <-- A base de dados de Editais (essencial)
         ```
 Importante: O arquivo `Apostilamento.exe` e a pasta `DIARIOS_E_DITAIS` devem sempre permanecer juntos no mesmo diretório.
 
