@@ -309,7 +309,7 @@ def automate_Apostila(driver, relevant_title2, number_after_portaria, process_nu
                 dropdown = WebDriverWait(driver, 10).until(
                     EC.element_to_be_clickable((By.XPATH, dropdown_xpath))
                 )
-                Select(dropdown).select_by_value("1334482")
+                Select(dropdown).select_by_value("1703955")
                 time.sleep(2)
 
                 WebDriverWait(driver, 10).until(

@@ -214,11 +214,11 @@ def automate_Despacho(driver, cpf_number, process_number, callbacks):
                 dropdown_xpath = '//*[@id="selBloco"]'
                 include_button_xpath = '//*[@id="sbmIncluir"]'
                 
-                # Select block 1468569 from the dropdown list
+                # Select block 1703956 from the dropdown list
                 dropdown = WebDriverWait(driver, 10).until(
                     EC.element_to_be_clickable((By.XPATH, dropdown_xpath))
                 )
-                Select(dropdown).select_by_value("1468569")
+                Select(dropdown).select_by_value("1703956")
                 time.sleep(2)
 
                 WebDriverWait(driver, 10).until(
@@ -226,11 +226,11 @@ def automate_Despacho(driver, cpf_number, process_number, callbacks):
                 ).click()
                 time.sleep(2) 
 
-                # Select block 1334482 from the dropdown list
+                # Select block 1703955 from the dropdown list
                 dropdown = WebDriverWait(driver, 10).until(
                     EC.element_to_be_clickable((By.XPATH, dropdown_xpath))
                 )
-                Select(dropdown).select_by_value("1334482")
+                Select(dropdown).select_by_value("1703955")
                 time.sleep(2)
 
                 # Click the last checkbox to mark the document
